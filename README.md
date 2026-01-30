@@ -84,7 +84,6 @@ Você precisará de uma **API Key** gratuita da OpenWeatherMap.
 
 <div align="center">
 
-<img src="https://github.com/SEU_USUARIO.png" width="100px;" alt="Foto de Perfil"/><br>
 **Hiann Alexander Mendes de Oliveira**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/hiann-alexander)
