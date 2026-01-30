@@ -3,6 +3,12 @@
 # 📍 Cep Weather Finder
 ### Localizador de Endereços e Previsão do Tempo
 
+<a href="https://hiann.github.io/Cep-Weather-Finder/">
+  <img src="https://img.shields.io/badge/Ver_Projeto_Online-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Ver Projeto Online">
+</a>
+
+<br><br>
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -40,7 +46,7 @@ Este projeto demonstra competência em **Manipulação do DOM**, **Consumo de AP
 
 * **📍 Busca Inteligente (ViaCEP):** Integração robusta que trata erros de CEP inexistente.
 * **🧠 Renderização Condicional:** O sistema detecta se o CEP possui logradouro específico. Se for um CEP único de cidade (ex: Pires do Rio - GO), ele oculta automaticamente as linhas de "Rua" e "Bairro", mantendo o visual limpo.
-* **duplicação de API:** Encadeamento de chamadas assíncronas (o resultado da primeira API alimenta a busca da segunda).
+* **🔗 Encadeamento de API:** Consumo de chamadas assíncronas em cadeia (o resultado da primeira API alimenta a busca da segunda).
 * **🎨 UI/UX Moderna:** Design com gradientes, glassmorphism, tipografia *Poppins* e animações de entrada (`fadeIn`) e feedback de erro (`shake`).
 * **📱 Interface Responsiva:** Layout 100% adaptável para mobile e desktop.
 
@@ -65,13 +71,13 @@ Você precisará de uma **API Key** gratuita da OpenWeatherMap.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU_USUARIO/Cep-Weather-Finder.git](https://github.com/SEU_USUARIO/Cep-Weather-Finder.git)
+    git clone [https://github.com/Hiann/Cep-Weather-Finder.git](https://github.com/Hiann/Cep-Weather-Finder.git)
     ```
 2.  **Configure a Chave de API:**
     * Abra o arquivo `script.js`.
     * Substitua o valor da variável `apiKey` pela sua chave:
     ```javascript
-    const apiKey = 'ada4e13043f7f095b31d4794267c95d8';
+    const apiKey = 'SUA_CHAVE_AQUI';
     ```
 3.  **Execute:**
     * Basta abrir o arquivo `index.html` em qualquer navegador. Não é necessário servidor backend.
@@ -84,6 +90,7 @@ Você precisará de uma **API Key** gratuita da OpenWeatherMap.
 
 <div align="center">
 
+<img src="https://github.com/Hiann.png" width="100px;" alt="Foto de Perfil"/><br>
 **Hiann Alexander Mendes de Oliveira**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hiann-alexander)
