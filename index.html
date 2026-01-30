@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Clima & CEP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <header>
+                <h1>🌤️ Busca CEP</h1>
+                <p>Digite o CEP para ver endereço e clima.</p>
+            </header>
+            
+            <div class="search-box">
+                <input type="text" id="cepInput" placeholder="Ex: 75200000" maxlength="8" autocomplete="off">
+                <button id="btnBuscar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </div>
+
+            <div id="resultado" class="result-container hidden">
+                
+                <div class="card endereco">
+                    <div class="card-header">
+                        <span class="icon">📍</span>
+                        <h2>Endereço</h2>
+                    </div>
+                    <div class="card-body">
+                        <p id="linha-logradouro"><strong>Rua:</strong> <span id="logradouro">--</span></p>
+                        <p id="linha-bairro"><strong>Bairro:</strong> <span id="bairro">--</span></p>
+                        <p><strong>Cidade:</strong> <span id="localidade">--</span></p>
+                    </div>
+                </div>
+
+                <div class="card clima">
+                    <div class="card-header">
+                        <span class="icon">🌡️</span>
+                        <h2>Clima Atual</h2>
+                    </div>
+                    <div class="weather-info">
+                        <p id="temp">--°C</p>
+                        <p id="descricao" class="capitalize">--</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div id="erro" class="error-msg hidden">
+                <p>CEP inválido ou não encontrado.</p>
+            </div>
+        </div>
+        
+        <footer>
+            Feito por <strong>Hiann Alexander</strong>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
